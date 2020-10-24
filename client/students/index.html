@@ -1,0 +1,24 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Students</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles.css">
+    <script src="/socket.io/socket.io.js"></script>
+  </head>
+  <body>
+    <script src = "index.js"></script>
+    <div id = "slideDisplayStudent">
+    </div>
+    <div class = "centerDivClass" id = "inputForm">
+      <div class="form-group">
+        <label for="exampleInputEmail1">Enter Code</label>
+        <input class="form-control" id="codeInput" placeholder="Enter class code">
+        <label for="exampleInputEmail1">Enter Name</label>
+        <input class="form-control" id="nameInput" placeholder="Enter your name">
+        <small id="error" class="form-text text-muted"></small>
+      </div>
+      <button class="btn btn-primary" onClick = "joinClass()">Submit</button>
+    </div>
+  </body>
+</html>
