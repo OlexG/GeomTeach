@@ -2,7 +2,7 @@
 GeomTeach is a combination between Kahoot and Peardeck. It attempts to combine the fun aspects of Kahoot and the beneficial aspects of Peardeck. 
 
 # How to Use
-Install the project onto your system. Install node js. Open cmd and cd into the project file path. Type the command "npm init". Install express, https and socket.io through npm install module-name. Type, node index.js. Visit localhost:30000/students/ for the student view and localhost:3000/teachers/ for the teacher view. 
+Install the project onto your system. Install node js. Open cmd and cd into the project file path. Type the command "npm init". Install express, https and socket.io through npm install module-name. Type, node index.js. Visit localhost:30000/students/ for the student view and localhost:3000/teachers/ for the teacher view. If you want other computers to join, you have to port forward your ip.
 
 # How it Works
 The current slide and the current students are stored on the node js server as variables and are served to the client through socket.io. The presentation is stored as images on the file system of the server. The project only allows support for one class currently.
